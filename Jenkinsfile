@@ -4,7 +4,7 @@ pipeline {
 
     environment {
         AWS_REGION     = "us-east-2"
-        AWS_ACCOUNT_ID = "123456789012"
+        AWS_ACCOUNT_ID = "794248399805"
         ECR_REPOSITORY = "smoke-demo"
         IMAGE_URI      = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPOSITORY}:latest"
     }
